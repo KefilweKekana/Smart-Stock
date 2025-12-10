@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include smart_stock *.css
+recursive-include smart_stock *.csv
+recursive-include smart_stock *.html
+recursive-include smart_stock *.ico
+recursive-include smart_stock *.js
+recursive-include smart_stock *.json
+recursive-include smart_stock *.md
+recursive-include smart_stock *.png
+recursive-include smart_stock *.py
+recursive-include smart_stock *.svg
+recursive-include smart_stock *.txt
+recursive-exclude smart_stock *.pyc
